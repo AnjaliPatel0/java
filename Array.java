@@ -13,6 +13,7 @@ public class Array {
         for(int i=0;i<n;i++){
             arr[i]=in.nextInt();
         }
+        in.close();
         System.out.println();
         for(int k=0;k<arr.length;k++){
             System.out.println(arr[k]);

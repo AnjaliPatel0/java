@@ -11,6 +11,7 @@ public class Reverse_Array {
             arr[i]=sc.nextInt();
 
         }
+        sc.close();
 
         int i=0;
         int j= n-1;

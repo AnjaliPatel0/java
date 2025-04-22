@@ -5,7 +5,7 @@ public class Sum_of_digit {
         int sum = 0;
         while(a>0){
             int rem= a%10;
-
+           
             sum = sum+rem;
             a=a/10;
         }
