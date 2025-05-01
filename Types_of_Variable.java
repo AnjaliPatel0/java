@@ -1,6 +1,6 @@
 public class Types_of_Variable {
    
-   //int a=5;//non static variable
+   //int a=5;//non static variable create object instance
   //instance variable are static and non static
    static int a=12;
     public static void main(String[] args){
