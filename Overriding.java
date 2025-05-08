@@ -1,6 +1,7 @@
 
 class parent{
   void eat(){
+    
     System.out.println("maggie");
   }
 }
@@ -8,6 +9,7 @@ class parent{
  void eat(){
   
       System.out.println("pasta");
+      super.eat();
 }
 }
 public class Overriding {
