@@ -8,7 +8,7 @@ class shape{
     void Triangle(float base ,float height){
         System.out.println(base*height/2);
     }
-}
+} 
 
 public class Overloading_AreaOfShapes {
     public static void main(String[] args) {
