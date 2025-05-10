@@ -1,11 +1,14 @@
 class shape{
-    void Rectangle(int length ,int breath){
+    //Calculate area of rectangle
+    void rectangle(int length ,int breath){
         System.out.println(length*breath);
     }
-    void Circle( double radius){
+    //calculate area f Circle
+    void circle( double radius){
       System.out.println(Math.PI*radius*radius);
     }
-    void Triangle(float base ,float height){
+    //calculate area of triangle
+    void triangle(float base ,float height){
         System.out.println(base*height/2);
     }
 } 
@@ -13,9 +16,9 @@ class shape{
 public class Overloading_AreaOfShapes {
     public static void main(String[] args) {
         shape obj= new shape();
-        obj.Rectangle(5,7);
-        obj.Circle(9.5);
-        obj.Triangle(10f,4f);
+        obj.rectangle(5,7);
+        obj.circle(9.5);
+        obj.triangle(10f,4f);
     }
     
 }
