@@ -13,9 +13,8 @@ public class Compress_String {
          }
 
         }
-        for(int i=1;i<str.length()-1;i++){
-              
-        }
+         // Always safe and accurate
+        newStr.append(str.charAt(str.length() - 1)).append(count);
         System.out.println(newStr);
     }
     
