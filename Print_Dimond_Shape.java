@@ -25,7 +25,6 @@ public class Print_Dimond_Shape {
             }
             System.out.println();
         }
-    
      }
  }
     
