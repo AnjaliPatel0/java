@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Find_missing_no_Instring {
+public class Find_missing_no_InArray {
 
     public static void main(String[] args ){
          Scanner sc =new Scanner(System.in);
