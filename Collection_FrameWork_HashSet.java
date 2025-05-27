@@ -4,9 +4,9 @@ public class Collection_FrameWork_HashSet {
     public static void main(String[] args) {
         HashSet<String> set =new HashSet<>();
         set.add("D");
-        set.add("M");
-        set.add("e");
-        set.add("F");
+        set.add("v");
+        set.add("E");
+        set.add("G");
         System.out.println(set);
 
          TreeSet<String> set1 =new TreeSet<>();
