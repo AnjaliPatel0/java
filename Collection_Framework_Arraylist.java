@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
-public class Collection_Framework {
+public class Collection_Framework_Arraylist {
     public static void main(String[] args) {
 
          ArrayList<Character> arr2 = new ArrayList<>();
@@ -28,7 +28,13 @@ public class Collection_Framework {
         arr1.add(67);
         arr1.add(78);
         arr1.add(0,21);
-        System.out.println(arr1);
+        System.out.println(arr1); 
+
+         
+     /*  for(int i=0;i<100;i++){
+            arr1.add(i);
+        }
+        System.out.println(arr1); */
 
         //to get a certain index from a array to use get 
         System.out.println("Get elemnt of given index");
