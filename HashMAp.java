@@ -2,6 +2,9 @@ import java.util.HashMap;
 public class HashMAp {
     public static void main(String[] args) {
         HashMap<Integer ,String> map =new HashMap<>();
+      //  map.put(1,"id");
+     //   System.out.println(map.get("name"));
+      //  System.out.println(map.getOrDefault("name", 0));
         map.put(1, "Anjali");
         map.put(2, "Patel");
         map.put(3,"Annn");
@@ -9,7 +12,7 @@ public class HashMAp {
             if(value.equals("Annn")){
                 System.out.println(key);
             }
-       });
+      });
        
 
 
