@@ -7,7 +7,7 @@ public class Transpose_OFMatrix {
         System.out.println("Enter no. of rows and colomn  ");
         int r =sc.nextInt();
         int c = sc.nextInt();
-        System.out.println("Enter your data Matrix ");
+        System.out.println("Enter Elements in Matrix ");
         int[][] transpose =new int[r][c];
          for(int i=0;i<r;i++){
         for(int j=0;j<c;j++){
