@@ -1,7 +1,6 @@
 import java.util.Scanner;
-public class Transpose_OFMatrix {
 
-  
+public class Transpose_OFMatrix {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter no. of rows and colomn  ");
@@ -18,10 +17,9 @@ public class Transpose_OFMatrix {
       System.out.println("Transpose of  given data is");
         for(int j=0;j<c;j++){
         for(int i=0;i<r;i++){
-            System.out.print(transpose[i][j] + "");
+            System.out.print(transpose[i][j] + " ");
         }
         System.out.println();
       }
     }
-    
-}
+  }
