@@ -1,4 +1,5 @@
-class MyRunnable implements Runnable{
+
+class myRunnable implements Runnable{
 
     public void run(){
         System.out.println(" thread using Runnable interface");
@@ -6,7 +7,7 @@ class MyRunnable implements Runnable{
 }
 public class Create_Thread {
     public static void main(String[] args) {
-        MyRunnable obj = new MyRunnable();
+        myRunnable obj = new myRunnable();
         Thread t1 = new Thread(obj);
         t1.start();
          try {
