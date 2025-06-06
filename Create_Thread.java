@@ -8,7 +8,7 @@ class myRunnable implements Runnable{
 public class Create_Thread {
     public static void main(String[] args) {
         myRunnable obj = new myRunnable();
-        Thread t1 = new Thread(obj);
+        Thread_Practice t1 = new Thread_Practice(obj);
         t1.start();
          try {
             t1.join();

@@ -4,7 +4,7 @@ class downloadfile{
       System.out.println(file + "downloading...." + (i*20) + "%");
     }
     try {
-         Thread.sleep(2000);
+         Thread_Practice.sleep(2000);
     } catch (Exception e) {
           // System.out.println(file + "done");
     }

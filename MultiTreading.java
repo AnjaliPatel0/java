@@ -1,8 +1,8 @@
- class MyThread extends Thread {
+ class MyThread extends Thread_Practice {
     public void run(){
       System.out.println("hello");
        try{
-         Thread.sleep(2000);
+         Thread_Practice.sleep(2000);
       }
           catch(Exception e){
           

@@ -1,4 +1,4 @@
-class FileDownload extends Thread {
+class FileDownload extends Thread_Practice {
     String Filename;
     public FileDownload(String Filename){
       this.Filename =Filename;
@@ -8,7 +8,7 @@ class FileDownload extends Thread {
             System.out.println(Filename + "downloading...." +(i*20) +"%");
         }
             try {
-                Thread.sleep(2000);
+                Thread_Practice.sleep(2000);
             } catch (Exception e) {
                 // TODO: handle exception
             }

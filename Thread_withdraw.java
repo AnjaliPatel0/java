@@ -20,10 +20,10 @@ public class Thread_withdraw {
     
     public static void main(String[] args) {
       Withdrawal b1 = new Withdrawal(800);
-        Thread t1 = new Thread(b1);
+        Thread_Practice t1 = new Thread_Practice(b1);
         
         Withdrawal b2=new Withdrawal(500);
-        Thread t2 =new Thread(b2);
+        Thread_Practice t2 =new Thread_Practice(b2);
         t1.start();
         t2.start(); 
         

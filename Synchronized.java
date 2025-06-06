@@ -1,4 +1,4 @@
-class Withdraw extends Thread{
+class Withdraw extends Thread_Practice{
     int amount ;
     int balance;
     public Withdraw(int amount){
@@ -7,12 +7,12 @@ class Withdraw extends Thread{
     public void run(){
         synchronized(Withdraw.class){
             if(balance>=amount){
-               System.out.println(Thread.currentThread().getName() + "");
+               System.out.println(Thread_Practice.currentThread().getName() + "");
                try {
-                Thread.sleep(1000);
+                Thread_Practice.sleep(1000);
                } catch (InterruptedException e) {
                 balance-=amount;
-                System.out.println(Thread.currentThread().getName());
+                System.out.println(Thread_Practice.currentThread().getName());
                }
             }
         }
