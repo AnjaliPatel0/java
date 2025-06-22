@@ -21,11 +21,9 @@ public class FindPairSum {
     if(!foundAnyPair){
         System.out.println("No pairs foundwith sum " +targetSum);
     }
-   } 
-    public static void main(String[] args) {
+   } public static void main(String[] args) {
         int[] arr= {1,5,7,13,-6,6,3,2};
         int targetSum=8;
         System.out.println("pairs with sum " + targetSum + " are:");
-        findPairs(arr,targetSum);
-    }
-}
+        findPairs(arr,targetSum);   
+}}
