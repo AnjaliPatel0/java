@@ -16,9 +16,7 @@ public class DaigonalOFMAtrix {
             for(int j=0;j<c;j++){
             matrix[i][j]=sc.nextInt();
         }
-      }
-      
-      //Output Daigonal matrix
+      } //Output Daigonal matrix
       System.out.println("Primary Daigonal elements ");
       for(int i =0;i<r;i++){
         System.out.println(matrix[i][i] + " ");
@@ -27,6 +25,5 @@ public class DaigonalOFMAtrix {
       for(int  i=0;i<r;i++){
         System.out.println(matrix[i][r-i-1] + " ");
       }
-    }
-    
+    }    
 }
