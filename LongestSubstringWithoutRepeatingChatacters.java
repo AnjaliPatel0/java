@@ -13,7 +13,7 @@ public class LongestSubstringWithoutRepeatingChatacters {
              }
              set.add(str.charAt(right));
 
-             if(right-left-1>max){
+             if(right-left+1>max){
                 max=right-left+1;
                 start = left;
              }
