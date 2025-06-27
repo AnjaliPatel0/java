@@ -2,7 +2,7 @@ import java.util.HashSet;
 
 public class LongestSubstringWithoutRepeatingChatacters {
     public static void main(String[] args) {
-        String str = "abcdaabcdbbd";
+        String str = "abcdabaabcdbbd";
         HashSet<Character> set = new HashSet<>();
         int max =0,left =0,start =0;
 
