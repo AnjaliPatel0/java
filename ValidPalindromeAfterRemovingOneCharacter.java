@@ -4,7 +4,6 @@ public class ValidPalindromeAfterRemovingOneCharacter {
         boolean result = validPalindrome(s);
         System.out.println(result);
     }
-    
     public static boolean validPalindrome(String s) {
         int left = 0, right = s.length() - 1;
         while (left < right) {
@@ -17,7 +16,6 @@ public class ValidPalindromeAfterRemovingOneCharacter {
         }
         return true; // The string is already a palindrome
     }
-
     public static boolean isPalindrome(String s, int left, int right) {
         while (left < right) {
             if (s.charAt(left) != s.charAt(right)) {
