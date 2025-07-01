@@ -1,6 +1,8 @@
 import java.util.*;
 public class GroupAnagramsSort {
-    public List<List<String>> groupAnagrams(String[] strs) {
+     public static void main(String[] args) {
+        String[] strs = {"cat", "dog", "tac", "god", "act", "good"};
+
         Map<String, List<String>> map = new HashMap<>();
 
         for (String str : strs) {
@@ -11,19 +13,10 @@ public class GroupAnagramsSort {
             map.computeIfAbsent(sortedStr, k -> new ArrayList<>()).add(str);
         }
 
-        return new ArrayList<>(map.values());
-    }
-
-    public static void main(String[] args) {
-        GroupAnagramsSort ga = new GroupAnagramsSort();
-        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        List<List<String>> result = ga.groupAnagrams(strs);
-
-        for (List<String> group : result) {
+        for (List<String> group : map.values()) {
             System.out.println(group);
-        }
+      }
     }
-
 }
 
  
