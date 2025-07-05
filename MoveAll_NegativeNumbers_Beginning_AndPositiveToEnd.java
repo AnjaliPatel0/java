@@ -21,10 +21,7 @@ public class MoveAll_NegativeNumbers_Beginning_AndPositiveToEnd {
          System.out.println(" Array After Rearranging");
         for(int num:newArr){
             
-            System.out.println(num + " ");
+            System.out.print(num + " ");
         }
-     
-
-        }
-    
+     }   
 }
